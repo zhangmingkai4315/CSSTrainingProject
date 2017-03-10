@@ -4,7 +4,6 @@ var gulp = require('gulp'),
         rename: {
             'gulp-live-server': 'serve',
             'gulp-autoprefixer':'autoprefixer',
-            'gulp-livereload':'livereload',
         }
     });
  
@@ -31,8 +30,8 @@ gulp.task('auto-prefixer', function() {
                     cascade: false
                 }
             ))
-            .pipe(gulp.dest('build')).on('error', gutil.log)
-            .pipe(plugins.livereload());
+            .pipe(gulp.dest('build')).on('error', gutil.log);
+            // .pipe(plugins.livereload());
     }); 
 gulp.task('watch', function() {
   gulp.watch('src/*.css', ['auto-prefixer']);
