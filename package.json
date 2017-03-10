@@ -1,0 +1,30 @@
+{
+  "name": "CSSTrainingProject",
+  "version": "1.0.0",
+  "description": "搭建开发环境，系统的学习css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangmingkai4315/CSSTrainingProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangmingkai4315/CSSTrainingProject/issues"
+  },
+  "homepage": "https://github.com/zhangmingkai4315/CSSTrainingProject#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-auto-reload": "^0.1.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-live-server": "0.0.30",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.8"
+  }
+}
