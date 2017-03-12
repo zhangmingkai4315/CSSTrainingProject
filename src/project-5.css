@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    background: darkcyan;
+    hyphens: auto;
+
+}
+/*css4中预计会加入更多的连字符的处理*/
+main{
+    max-width: 12em;
+}
+

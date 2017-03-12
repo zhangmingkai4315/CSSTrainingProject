@@ -1,0 +1,26 @@
+body{
+    background: darkorange;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+
+}
+
+header ,footer, main{
+    border: 1px solid navajowhite;
+}
+/*main{
+    padding-top: 100em;
+
+}*/
+    /*当main远大于视图的时候，footer在视图下面，理所当然的成为一个footer,*/
+    /*但是当小于视图的时候，footer却跑到了窗口的中间位置*/
+header{
+}
+footer{
+    background: lightslategray;
+}
+main{
+    flex: 1;
+}

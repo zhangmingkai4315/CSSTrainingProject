@@ -1,0 +1,12 @@
+body{
+    /*background: #eee;*/
+}
+
+@font-face{
+	font-family: Ampersand;
+	src:local('Baskerville-Italic'),local('Palatino-Italic');
+	unicode-range: U+26;
+}
+h1{
+	font-family: Ampersand,Arial, Helvetica, sans-serif;
+}

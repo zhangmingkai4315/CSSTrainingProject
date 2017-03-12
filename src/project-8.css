@@ -1,0 +1,51 @@
+body{
+   	background:hsl(0,50%,45%)
+}
+
+div h2{
+	font-size: 3em;
+	color: hsl(210, 13%, 75%);
+	text-shadow: 0 -1px 3px black;
+}
+
+div .basic{
+	text-shadow: 0 0 1px black, 
+				0 0 1px black, 
+				0 0 1px black, 
+				0 0 1px black, 
+				0 0 1px black, 
+				0 0 1px black;
+	font-size: 3em;
+	color: hsl(210, 13%, 75%);
+}
+div .sunshine{
+	font-size: 3em;
+	color: #ffc;
+	text-shadow: 0 0 0em, 0 0 0em;
+	transition: 1s;
+}
+
+div .sunshine:hover{
+	font-size: 3em;
+	color: #ffc;
+	text-shadow: 0 0 .3em, 0 0 .3em;
+}
+
+div .blur{
+	font-size: 3em;
+	color: #ffc;
+	transition: 1s;
+}
+
+div .blur:hover{
+	filter: blur(.05em);
+}
+
+div .threed{
+	color: white;
+	font-size: 3em;
+	text-shadow: 1px 1px black, 2px 2px black,
+				3px 3px black, 4px 4px black,
+				5px 5px black, 6px 6px black,
+				7px 7px black, 8px 8px black;
+}
